@@ -10,6 +10,8 @@ public class PatternMaker {
         pattern2();
         pattern3();
         pattern5();
+        pattern6();
+        pattern7();
     }
 
     public void pattern1() {
@@ -39,10 +41,26 @@ public class PatternMaker {
             for (int c = 1; c < 5; c++) {
                 System.out.print(c + "\t");
             }
-     
+
         }
     }
+
+    public void pattern6() {
+        for (int u = 0; u < 6; u++) {
+            System.out.println(1 + u);
+            for (int q = 1; q < u; q++) {
+                System.out.print(" ");
+            }
+        }
+    }
+    public void pattern7() {
+            for (int z = 5; z > 0; z = z- 4*4) {
+                System.out.print(z + "\t");
+            }
 }
+}
+
+
 
 
 
